@@ -9,3 +9,5 @@ areas:
     availableComponents:
       quotation:
         id: hello-magnolia:components/quotation
+      dailyQuote:
+        id: hello-magnolia:components/dailyQuote

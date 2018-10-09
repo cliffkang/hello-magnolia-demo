@@ -1,0 +1,43 @@
+# Automatically generated dialog with few most often used fileds (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
+
+form:
+  label: dailyQuote
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: category
+          fieldType: optionGroup
+          multiselect: false
+          label: Pick a Category
+          options:
+            - name: inspire
+              label: inspire
+              value: inspire
+            - name: management
+              label: management
+              value: management
+            - name: sports
+              label: sports
+              value: sports
+            - name: life
+              label: life
+              value: life
+            - name: funny
+              label: funny
+              value: funny
+            - name: love
+              label: love
+              value: love
+            - name: art
+              label: art
+              value: art
+            - name: students
+              label: students
+              value: students
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
